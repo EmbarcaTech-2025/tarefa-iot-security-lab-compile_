@@ -6,8 +6,8 @@
 #include "include/xor_cipher.h"
 
 // Configurações Wi-Fi e MQTT
-#define WIFI_SSID     "SEU_SSID"
-#define WIFI_PASS     "SUA_SENHA"
+#define WIFI_SSID     "JOAO_2.4G"
+#define WIFI_PASS     "30226280!"
 #define MQTT_BROKER   "192.168.35.207"
 #define MQTT_USER     "aluno"
 #define MQTT_PASS     "senha123"
