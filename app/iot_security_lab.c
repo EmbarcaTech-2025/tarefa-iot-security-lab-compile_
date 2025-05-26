@@ -4,6 +4,8 @@
 #include "include/wifi_conn.h"
 #include "include/mqtt_comm.h"
 #include "include/xor_cipher.h"
+#include "pico/stdlib.h"
+#include <time.h>
 
 // Configurações Wi-Fi e MQTT
 #define WIFI_SSID     "JOAO_2.4G"
@@ -62,7 +64,7 @@ int main() {
 
     // Aguarda para manter o programa rodando (ajuste conforme necessário)
     while (1) {
-        sleep(5);
+        sleep_ms(5);
     }
 
     return 0;
