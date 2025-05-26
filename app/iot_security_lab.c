@@ -8,7 +8,7 @@
 // Configurações Wi-Fi e MQTT
 #define WIFI_SSID     "SEU_SSID"
 #define WIFI_PASS     "SUA_SENHA"
-#define MQTT_BROKER   "192.168.1.100" // Altere para o IP do seu broker
+#define MQTT_BROKER   "192.168.35.207"
 #define MQTT_USER     "aluno"
 #define MQTT_PASS     "senha123"
 #define MQTT_TOPIC    "escola/sala1/temperatura"
