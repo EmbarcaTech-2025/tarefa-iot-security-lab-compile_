@@ -35,7 +35,8 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(iot_security_lab iot_security_lab.c 
+add_executable(iot_security_lab 
+    app/iot_security_lab.c 
     src/mqtt_comm.c
     src/wifi_conn.c
     src/xor_cipher.c
