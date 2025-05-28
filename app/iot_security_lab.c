@@ -10,9 +10,9 @@
 // Configurações Wi-Fi e MQTT
 #define WIFI_SSID     "JOAO_2.4G"
 #define WIFI_PASS     "30226280!"
-#define MQTT_BROKER   "192.168.35.207"
+#define MQTT_BROKER   "192.168.1.65"
 #define MQTT_USER     "aluno"
-#define MQTT_PASS     "senha123"
+#define MQTT_PASS     "1234"
 #define MQTT_TOPIC    "escola/sala1/temperatura"
 #define XOR_KEY       42
 
