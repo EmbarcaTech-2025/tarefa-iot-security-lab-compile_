@@ -28,7 +28,7 @@ int main() {
         xor_encrypt((uint8_t*)buffer, criptografada, strlen(buffer), XOR_KEY);
         mqtt_comm_publish(MQTT_TOPIC, criptografada, strlen(buffer));
         printf("Mensagem criptografada publicada!\n");
-        sleep_ms(5000); // envia a cada 5 segundos
+        sleep_ms(25000); // envia a cada 5 segundos
     }
     return 0;
 }
