@@ -35,6 +35,7 @@ void on_message(char* topic, char* msg, int len) {
 }
 
 int main() {
+    stdio_init_all();
     connect_to_wifi(WIFI_SSID, WIFI_PASS);
     mqtt_setup("bitdog2", MQTT_BROKER, MQTT_USER, MQTT_PASS);
     mqtt_comm_subscribe(MQTT_TOPIC, on_message);

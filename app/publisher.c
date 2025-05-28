@@ -16,6 +16,7 @@
 #define XOR_KEY       42
 
 int main() {
+    stdio_init_all();
     connect_to_wifi(WIFI_SSID, WIFI_PASS);
     mqtt_setup("bitdog1", MQTT_BROKER, MQTT_USER, MQTT_PASS);
 
