@@ -37,9 +37,9 @@ pico_sdk_init()
 
 add_executable(iot_security_lab
 #Para a placa 1
-    app/publisher.c
+#   app/publisher.c
 #Para a placa 2
-#   app/subscriber.c
+    app/subscriber.c
 #Modo Geral
 #   app/iot_security_lab.c 
     src/mqtt_comm.c
